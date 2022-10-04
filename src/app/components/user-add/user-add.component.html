@@ -1,0 +1,146 @@
+<ng-template #content let-modal>
+  <div class="model header">
+    <h4 *ngIf=" " class="modal-title" id="modal-basic-title">Rehnere ekleme </h4>
+    <button
+      type="button"
+      class="btn-close"
+      aria-label="Close"
+      (click)="modal.dismiss('Cross click')"
+    ></button>
+  </div>
+  <div class="modal-body">
+    <form [formGroup]="empform">
+      <div class="mb-3">
+        <label> Adı </label>
+        <div class="input-group">
+          <input name="name" class="form-control" formControlName="name" />
+        </div>
+      </div>
+      <div class="mb-3">
+        <label> Soyadı </label>
+        <div class="input-group">
+          <input name="surname" class="form-control" formControlName="surname" />
+        </div>
+      </div>
+      <div class="mb-3">
+        <label> Şirket </label>
+        <div class="input-group">
+          <input name="company" class="form-control" formControlName="company" />
+        </div>
+      </div>
+      <div class="mb-3">
+        <label> Departman </label>
+        <div class="input-group">
+          <input name="department" class="form-control" formControlName="department" />
+        </div>
+      </div>
+      <div class="mb-3">
+        <label> Telefon </label>
+        <div class="input-group">
+          <input name="phone" class="form-control" formControlName="phone" />
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label> Özel Kod </label>
+        <div class="input-group">
+          <input name="privateCode" class="form-control" formControlName="privateCode" />
+        </div>
+      </div>
+    </form>
+    <div class="card-footer">
+      <button class="btn btn-danger btn-md" (click)="add()">Kaydet</button>
+
+      <button class="btn btn-danger btn-md" (click)="cancel()">Geri</button>
+    </div>
+  </div>
+</ng-template>
+
+
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">ekle</button>
+
+<pre>{{ closeResult }}</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="content">
+  <div class="col-md-10">
+    <div class="card">
+      <div class="card-header"><h5 class="title">Ekle</h5></div>
+      <div class="card-body">
+        <form [formGroup]="userAddForm">
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              formControlName="name"
+              class="form-control"
+              placeholder="Adı"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="surname"
+              formControlName="surname"
+              class="form-control"
+              placeholder="Soyadı"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="department"
+              formControlName="department"
+              class="form-control"
+              placeholder="Departman"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="privateCode"
+              formControlName="privateCode"
+              class="form-control"
+              placeholder="Ozel Kod"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="phone"
+              formControlName="phone"
+              class="form-control"
+              placeholder="Telefon"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="company"
+              formControlName="company"
+              class="form-control"
+              placeholder="company"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="card-footer">
+        <button class="btn btn-danger btn-md" (click)="add()">Ekle</button>
+
+        <button class="btn btn-danger btn-md" (click)="cancel()">Geri</button>
+      </div>
+    </div>
+  </div>
+</div> -->

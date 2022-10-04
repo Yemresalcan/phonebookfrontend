@@ -1,0 +1,16 @@
+.register-wrap{
+	width:1000%;
+	margin:auto;
+	max-width:720px;
+	min-height:400px;
+	position:static;
+	background:url(https://media-exp1.licdn.com/dms/image/C561BAQHDu7FSgRpOyg/company-background_10000/0/1521157650866?e=2147483647&v=beta&t=8iRzYJLT-M-XJWc-Sbzxde1Q9_gK1PyDHHn_W_JX7gw) no-repeat center;
+	box-shadow:0 5px 8px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.button{
+	border:none;
+  width: 100%;
+	padding:10px 20px;
+	border-radius:25px;
+	background:#033db0d4
+}

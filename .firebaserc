@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-sign-up-5bd16": {
+      "hosting": {
+        "phonebook": [
+          "angular-sign-up-5bd16"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-sign-up-5bd16"
+  }
+}

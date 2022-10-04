@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="http://localhost:4200/">
+      <img src="https://www.wagner.com.tr/images/logo.png" alt="" height="10" />
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"></li>
+      </ul>
+
+      <div class="usericon"><img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png" routerLink="dashboard"/></div>
+      <div class="btn-group">
+      <!-- <button [disabled]="!" type="button" class="btn btn-success btn-sm" routerLink="sign-in">
+        <i class="bi bi-box-arrow-in-right">Giris Yap</i>
+      </button> -->
+
+
+      <!-- <button  class="button-37" routerLink="users/add">
+        Kullanıcı ekle
+       </button> -->
+      <button
+      type="button"
+      class="btn btn-danger"
+      (click)="authService.SignOut()"
+    >
+      Çıkıs
+    </button>
+
+
+      </div>
+    </div>
+  </div>
+
+
+</nav>
