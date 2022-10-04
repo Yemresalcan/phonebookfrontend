@@ -1,5 +1,5 @@
 
-#PhoneBoook <img src="https://cdn-icons-png.flaticon.com/512/183/183552.png" width="50" title="hover text" >
+PhoneBoook <img src="https://cdn-icons-png.flaticon.com/512/183/183552.png" width="50" title="hover text" >
 
 <p>If your department's entire phone number is too many, you can use this phone book.<p>
 
@@ -20,5 +20,4 @@
 
 ![image](https://user-images.githubusercontent.com/58724276/193807739-e044d7fe-f8c9-41f8-99e4-fed9cf1518d1.png)
 
-<p>This program is so much actions include if you any question ask me </p> <img src="https://www.clipartmax.com/png/middle/158-1586624_mail-icon-mail-multimedia-icon-icon.png" width="40"> 
-   <a href="sunflowerisoft.info@gmail.com">Send email</a>
+<p>This program is so much actions include if you any question ask me </p> <a href="sunflowerisoft.info@gmail.com">Send email</a>
